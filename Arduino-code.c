@@ -62,8 +62,24 @@ void loop(){
     delayMicroseconds(2000);
     digitalWrite(stepPin3 ,LOW);
     delayMicroseconds(2000);
+    }if(data == '4'){
+    digitalWrite (dirPin3 ,HIGH); // Change to Low if you need the motor to change the direction
+    for (int x = 0; 200; x++){  
+    digitalWrite(stepPin1 ,HIGH);
+    delayMicroseconds(2000);
+    digitalWrite(stepPin1 ,LOW);
+    delayMicroseconds(2000); 
+    digitalWrite(stepPin2 ,HIGH);
+    delayMicroseconds(2000);
+    digitalWrite(stepPin2 ,LOW);
+    delayMicroseconds(2000);
+    digitalWrite(stepPin3 ,HIGH);
+    delayMicroseconds(2000);
+    digitalWrite(stepPin3 ,LOW);
+    delayMicroseconds(2000);
     }
    }
   }
  }
+}
 }
