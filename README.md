@@ -1,3 +1,5 @@
+DOWNLOAD AND EXTRACT THE FILES 
+
 Order to follow the operation
 1.Make the connetions as per Schematics
 2.Upload Arduino Code
