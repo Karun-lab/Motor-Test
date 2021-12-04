@@ -1,7 +1,7 @@
 import serial
 import time
 
-arduino = serial.Serial(port = 'COM12', timeout=0)
+arduino = serial.Serial(port = 'COM12', timeout=0) #Change the COM Port according to your Connection
 time.sleep(2)
 
 from tkinter import*
