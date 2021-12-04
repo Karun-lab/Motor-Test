@@ -47,10 +47,15 @@ def cmd3():
   print("3")
   arduino.write(str.encode('3'))
 
+def cmd4():
+  print("4")
+  arduino.write(str.encode('4'))
+
 
 
 bttn(0,0,"STOP",'#f86263',"#141414",cmd)
 bttn(0,37,"Motor 1",'#25dae9',"#141414",cmd1)
 bttn(0,74,"Motor 2",'#25dae9',"#141414",cmd2)
 bttn(0,110,"Motor 3",'#25dae9',"#141414",cmd3)
+bttn(0,147,"All At Once",'#ffa157',"#141414",cmd4)
 w.mainloop()
